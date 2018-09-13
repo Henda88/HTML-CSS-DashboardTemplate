@@ -1,0 +1,297 @@
+/* body, html {
+    min-height: 100%;
+    min-width: 320px;
+}
+
+body{
+
+    font: 14px/16px Roboto,sans-serif;
+    color: #fff;
+    background-color: #F0F3F4;
+
+}  */
+
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-color:black;
+}
+
+
+div#top-page {
+	width:1340px;
+	height:115px;
+    background-color:black;
+    position: absolute;
+    top: 0px;
+    padding-right: 9px;
+    }
+    
+p{
+    position: absolute;
+    margin-left: 51px;
+    top: 16px;
+    color: white;
+    font-size: 25px;
+ }
+
+div#navbar {
+	float:left;
+	width:220px;
+	height:680px;
+    background-color: black;
+    overflow: hidden;
+    position: absolute;
+    top: 115px;
+}
+
+li, li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: -14px;
+    margin-right: 19px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+   
+    background-color: darkcyan;
+    color: black;
+    cursor: pointer;
+    width: 150px;
+} 
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+
+}
+
+   /*  .arrow{
+        
+    float: right;
+    margin-right: -8px;
+    display: inline-block;
+    top:-13px;
+     
+
+     } */
+
+.research{
+position: absolute;
+left: 368px;
+top: 25px;
+border: 1px solid black;
+padding: 20px;
+font-size: 19px;
+background-color: black;
+color: white;
+}
+
+.icon1{
+position: absolute;
+left: 330px; 
+width: 71px;
+top: 33px;
+     }
+
+.p2{
+position: absolute;
+left: 748px;
+top: 24px;
+color: white;
+font-size: 19px;
+}
+
+.mail{
+
+    position: absolute;
+    left: 930px;
+    top: 43px;
+    color: aqua;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.avatar{
+    position: absolute;
+    right: 35px; 
+    width: 93px;
+    top: 11px;
+ }
+
+.bell{
+    position: absolute;
+    right: 195px; 
+    width: 35px;
+    top: 34px;
+    cursor: pointer;
+ }
+
+ .email{
+    position: absolute;
+    right: 148px; 
+    width: 35px;
+    top: 34px;
+    cursor: pointer;
+ }
+
+ .menu {
+
+    position: absolute;
+    left: 216px; 
+    width: 35px;
+    top: 34px;
+    cursor: pointer;
+ }
+
+ h3{
+    position: absolute;
+    margin-left: 248px;
+    top: 107px;
+    color: white;
+    font-size: 25px;
+ }
+
+.p4 {
+
+    position: absolute;
+    right: 51px;
+    top: 107px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+ }
+
+.NewVisits{
+color: white;
+position: absolute;
+margin-left: 248px;
+top: 190px;
+color: white;
+font-size: 25px;
+width: 312px;
+height: 145px ;
+background-color: darkcyan;
+box-shadow: -8px 7px 3px darkcyan;
+border-radius: 7px;
+}
+
+.Purchases{
+
+color: white;
+position: absolute;
+right: 171px;
+top: 394px;
+color: white;
+font-size: 25px;
+width: 312px;
+height: 145px ;
+background-color: darkcyan;
+box-shadow: -8px 7px 3px darkcyan;
+border-radius: 7px;
+
+}
+
+.ActiveUsers{
+
+    color: white;
+    position: absolute;
+    right: 170px;
+    top: 190px;
+    color: white;
+    font-size: 25px;
+    width: 312px;
+    height: 145px ;
+    background-color: darkcyan;
+    box-shadow: -8px 7px 3px darkcyan;
+    border-radius: 7px;
+}
+
+.Returned{
+    color: white;
+    position: absolute;
+    margin-left: 248px;
+    top: 394px;
+    color: white;
+    font-size: 25px;
+    width: 312px;
+    height: 145px ;
+    background-color: darkcyan;
+    box-shadow: -8px 7px 3px darkcyan;
+    border-radius: 7px;
+
+
+}
+
+#rcorners1 {
+    border-radius: 50px;
+    padding: -14px; 
+    width: 94px;
+    height: 73px; 
+    border-right: 10px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    top: 236px; 
+    margin-left: 388px; 
+}
+
+#rcorners2 {
+    border-radius: 50px;
+    padding: -14px; 
+    width: 94px;
+    height: 73px; 
+    border-right: 10px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    top: 431px; 
+    margin-left: 1038px; 
+}
+
+#rcorners3 {
+    border-radius: 50px;
+    padding: -14px; 
+    width: 94px;
+    height: 73px; 
+    border-right: 10px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    top: 236px; 
+    margin-left: 1027px; 
+}
+
+
+#rcorners4 {
+    border-radius: 50px;
+    padding: -14px; 
+    width: 94px;
+    height: 73px; 
+    border-right: 10px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    top: 431px; 
+    margin-left: 388px; 
+}
